@@ -32,6 +32,10 @@ SOCIAL = (
 MENUITEMS = (
 )
 
+# GitHub Fork Label
+GITHUB_URL = u"https://github.com/mcsrainbow/heydevops"
+GITHUB_POSITION = "right"
+
 # Disqus
 DISQUS_SITENAME = u"mcsrainbow"
 
