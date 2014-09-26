@@ -216,7 +216,7 @@ Write on idc1-client15 mount point /mnt/datavolume1:
 
 `[root@idc1-client15 ~]# mount -t glusterfs idc1-server3:datavolume1 /mnt/datavolume1/`
 
-`[root@idc1-client15 ~]# echo "This is idc1-client15" &gt; /mnt/datavolume1/hello.txt`
+`[root@idc1-client15 ~]# echo "This is idc1-client15" > /mnt/datavolume1/hello.txt`
 
 `[root@idc1-client15 ~]# mkdir /mnt/testdir`
 
