@@ -43,10 +43,11 @@ DISQUS_SITENAME = u"mcsrainbow"
 PATH = 'content'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
-STATIC_PATHS = ['images', 'files']
+STATIC_PATHS = ['images', 'files', 'charity']
 EXTRA_PATH_METADATA = {
     'files/robots.txt': {'path': 'robots.txt'},
     'images/favicon.ico': {'path': 'favicon.ico'},
+    'charity/404.html': {'path': '404.html'},
 }
 
 ARTICLE_URL = ('articles/{slug}.html')
